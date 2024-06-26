@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "email": "vinod@gmail.com",
+      "password": "$2a$10$4xrGtdYllj6hz0g.dl34qejXSQ57ayoHQzNOcvkSSvdGJr4PFL8Qu",
+      "firstName": "Vinod",
+      "lastName": "jA",
+      "id": 1
+    },
+    {
+      "email": "vinod@123mail.com",
+      "password": "$2a$10$eUq5ihJTRh9nJ0dOPxQTg.J4o4PirIylWWHsHKDegCk01Jf8apcO2",
+      "firstName": "Vinod",
+      "lastName": "Jaspa",
+      "id": 2
+    }
+  ],
+  "books": [
+    {
+      "userId": "2",
+      "title": "This is Book",
+      "collaborators": [],
+      "sections": [
+        {
+          "id": "d4ca5159-a22b-4328-99d6-9af80365a26c",
+          "title": "Section",
+          "subsections": [
+            {
+              "id": "d3eb5b6b-b9b5-4e91-bcb3-96cf0da7f261",
+              "title": "Subsection"
+            },
+            {
+              "id": "7158696c-dfb2-4a4b-88e9-793c5e21eb65",
+              "title": "Nested subsection"
+            },
+            {
+              "id": "89321c65-7ec9-453f-a313-acf44a25d865",
+              "title": "Nested"
+            }
+          ]
+        }
+      ],
+      "id": "45ef8e19-7082-4aa4-89db-0c8e449a0cbc"
+    }
+  ]
+}
